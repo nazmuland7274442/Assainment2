@@ -1,0 +1,98 @@
+/* hedder style */
+.body{
+    width: 100%;
+}
+.header{
+    width: 100%;
+    background: rgba(255, 144, 14, 0.10);
+}
+.header-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 63px 200px 63px 150px;
+}
+.header-title{
+    color: var(--Dark-01, #131313);
+    font-size: 35px;
+}
+.headder-content{
+    display: flex;
+    gap: 20px;
+}
+.headder-content a{
+    text-decoration: none;
+    color: var(--Dark-02, #424242);
+    font-size: 18px;
+}
+
+/* header style end */
+
+.banner-title{
+    color: var(--Dark-01, #131313);
+    text-align: center;
+    font-size: 54px;
+    margin-bottom: 0px;
+}
+.banner-description{
+    width: 868px;
+    height: 52px;
+    text-align: center;
+    margin: 5px 526px 10px 526px;
+}
+.banner-button{
+    width: 180px;
+    height: 55px;
+    font-size: 20px;
+    background: #FF900E;
+    text-align: center;
+    margin-left: 895px;
+    padding-top: 23px;
+    border-radius: 8px;
+}
+.banner-image{
+    width: 1440px;
+    height: 700px;
+    border-radius: 8px;
+    margin: 45px 240px 45px 240px;
+}
+ /* banner style end */
+
+ /* main style start */
+ .main-section-first{
+    width: 100%;
+    display: flex;
+ }
+.team-photo{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 15px 25px 40px 310px;
+}
+.team-photo img{
+    width: 342px;
+    height: 342px;
+    border-radius: 8px;
+    margin: 14px;
+}
+.main-part-title{
+    width: 470px;
+    height: 110px;
+    margin: 210px 387px 10px 76px;
+    font-size: 45px;
+}
+.main-part-descripton{
+    width: 537px;
+    height: 77px;
+    margin: 5px 300px 32px 76px;
+    font-size: 16px;
+    color: var(--Dark-03, #727272);
+}
+.main-button-1{
+    width: 180px;
+    height: 65px;
+    border-radius: 8px;
+    background: #FF900E;
+    color: #FFF;
+    font-size: 20px;
+    margin: 0px 636px 0px 76px;
+}
